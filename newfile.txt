@@ -40,3 +40,11 @@ git push origin my-new-branch
 git merge <branch>
 - Merges the branch you are currently on with the branch specified. Should normally be done while on the main branch, and the specified branch should be branch_2, for example.
 
+git push -f origin <branch name>
+- If merging the branches on GitHub does not work for whatever reason, but does on console, use this to manually override the remote repo with the one on file.
+
+git pull origin main
+- Shows you all the changes made to the remote repo and updates your main branch to match it
+
+git log
+- Shows you all the changes made to the remote repo in more detail
