@@ -24,8 +24,12 @@ GitHub will ask if you want to create a new repo from scratch or if you want to 
 
 git remote add origin https://github.com/dudziakpe/mynewrepository.git
 - APPARENTLY THIS JUST DOESN'T WORK I GUESS??? EVEN THOUGH IT'S SUPPOSED TO?????????
+- - Go to GitHub, account -> settings -> developer settings -> personal access tokens -> tokens (classic) -> generate new token, copy the token and paste it somewhere to access it again
+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
+- - git remote set-url origin https://<token>@github.com/<username>/<repo>
 - We've created a repo locally, so we want to push that onto GitHub
 - - The https should be given upon creating the repo
 
 git push origin my-new-branch
 - Push the commit in your branch to the new GitHub repo. This lets other people see the changes I've made.
+- On the GitHub page, it shows the branch_2 had recent pushes, and you can compare and pull request.
