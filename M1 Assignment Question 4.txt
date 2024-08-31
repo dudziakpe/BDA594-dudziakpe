@@ -1,0 +1,5 @@
+https://www.tutorialspoint.com/machine_learning_with_python/machine_learning_with_python_tutorial.pdf
+
+Author/Institute: Tutorialspoint
+
+I'm interested in this book in particular because I already have a deep history with Python to begin with. I believe that, in reading this book, I'll be able to better understand how machine learning works in regards to Python, and how I can incorporate it into my own projects when I'm using Python.
