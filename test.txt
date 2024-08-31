@@ -14,9 +14,13 @@ git commit -m "Your message about the commit"
 
 git checkout -b <my branch name>
 - Automatically creates a new branch, and then "checks you out" on it, meaning git will move you to that branch off the primary branch
+git checkout <branch name>
+- Switches from your current branch to the chosen branch. Use this to go back to main
 
 git branch
 - Shows the branches, including the one you are currently on and the main branch.
+git branch -d <branch>
+- Deletes the specified branch. Should be used after merging.
 
 
 To create a new repo on GitHub, log in and go to the GitHub home page. You can find the “New repository” option under the “+” sign next to your profile picture, in the top right corner of the navbar:
@@ -25,7 +29,6 @@ GitHub will ask if you want to create a new repo from scratch or if you want to 
 git remote add origin https://github.com/dudziakpe/mynewrepository.git
 - APPARENTLY THIS JUST DOESN'T WORK I GUESS??? EVEN THOUGH IT'S SUPPOSED TO?????????
 - - Go to GitHub, account -> settings -> developer settings -> personal access tokens -> tokens (classic) -> generate new token, copy the token and paste it somewhere to access it again
-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
 - - git remote set-url origin https://<token>@github.com/<username>/<repo>
 - We've created a repo locally, so we want to push that onto GitHub
 - - The https should be given upon creating the repo
@@ -33,3 +36,7 @@ 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
 git push origin my-new-branch
 - Push the commit in your branch to the new GitHub repo. This lets other people see the changes I've made.
 - On the GitHub page, it shows the branch_2 had recent pushes, and you can compare and pull request.
+
+git merge <branch>
+- Merges the branch you are currently on with the branch specified. Should normally be done while on the main branch, and the specified branch should be branch_2, for example.
+
